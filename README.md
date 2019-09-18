@@ -1,8 +1,8 @@
-#SQL NOTES
+# SQL NOTES
 
-##DQL
+## DQL
 
-###SELECT
+### SELECT
 e.g.  SELECT <Column_name> FROM <table_name>
       SELECT * FROM Books;
 
@@ -71,20 +71,20 @@ SELECT <columns> FROM <table> WHERE <condition 1> OR <condition 2> ...;
   To limit the number of results returned, use the TOP keyword.
 
   SELECT TOP <# of rows> <columns> FROM <table>
-###INSERT
+### INSERT
 
   Insert data into empty table
 
   INSERT INTO <Column_name>
   VALUES <DATA>
 
-###UPDATE
+### UPDATE
 
   UPDATE <table_name>
   SET <column_name> = value1, <Column_name2> = value2
   WHERE <Condition>
 
-###DELETE
+### DELETE
 
 DELETE FROM <table_name>
 WHERE <condition>
@@ -95,7 +95,7 @@ WHERE <condition>
 
   CREATE TABLE <table_name>(column1 [datatype], column2 [datatype], column3 [datatype])
 
-###ALTER
+### ALTER
 
   ALTER <table_name>
   ADD <column_name> [datatype]
@@ -103,7 +103,7 @@ WHERE <condition>
   ALTER <table_name>
   DROP COLUMN <column_name>
 
-###DML
+### DML
 
 Aggregate Functions:
 
